@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save files to local storage directly"
+        android:paddingBottom="15dp"
+    />
+
+    <CheckBox
+        android:id="@+id/btnCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask me everytime I choose to save"
+    />
+
+    <Button
+        android:id="@+id/btnSelectDir"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a directory"
+    />
+
+<!--    <TextView-->
+<!--        android:id="@+id/customText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/blue_light"-->
+<!--        android:layout_marginHorizontal="45dp">-->
+<!--    </TextView>-->
+
+</LinearLayout>
